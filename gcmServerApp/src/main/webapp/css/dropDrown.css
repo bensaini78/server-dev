@@ -1,0 +1,83 @@
+@CHARSET "ISO-8859-1";
+
+	 .custom-select {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		z-index: 88;
+		color: black;
+		width: 100%;
+		background: #f2f2f2;
+		color: #404040;
+		font-size: 15px;
+	}
+	 .custom-select .s-hidden {
+		visibility: hidden;
+		padding: 0;
+		padding-right: 10px;
+		width: 90%;
+	}
+	 .custom-select .styledSelect {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: white;
+		padding: 0 1rem;
+		font-weight: bold;
+		line-height: 25px;
+		border: 1px solid #8c8c8c;
+		border-radius: 6px;
+		height: 30px;
+		z-index: 888888;
+		line-height: 30px;
+	}
+	 .custom-select .styledSelect:after {
+		font-family: 'FontAwesome';
+		content: "\f0dd";
+		position: absolute;
+		top: 0;
+		right: 0;
+		background: #00acd1;
+		width: 25px;
+		height: 30px;
+		text-align: center;
+		color: #fff;
+		border-radius: 0 3px 3px 0;
+		padding: 0;
+		line-height: 23px;
+	}
+	 .custom-select .styledSelect.active {
+		background-color: #e5e5e5;
+		border: 1px solid #8c8c8c;
+		border-radius: 6px 6px 0 0;
+	}
+	 .custom-select .styledSelect.active:after {
+		content: "\f00d";
+		border-radius: 0 6px 0 0;
+		line-height: 29px;
+	}
+	 .custom-select .options {
+		display: none;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		left: 0;
+		z-index: 88;
+		margin: 0 0;
+		padding: 0 0;
+		list-style: none;
+		background-color: white;
+		border: 1px solid #8c8c8c;
+		border-radius: 0 0 6px 6px;
+		z-index: 99999;
+		padding: 7px 0 0 0;
+	}
+	 .custom-select .options li {
+		padding: .4rem 1rem;
+		cursor: pointer;
+	}
+	 .custom-select .options li:hover {
+		background-color: #f2f2f2;
+	}

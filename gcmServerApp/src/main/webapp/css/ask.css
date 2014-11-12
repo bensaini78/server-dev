@@ -1,0 +1,102 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+  width: 158%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: white; 
+}
+th { 
+  background: white; 
+  color: inherit; 
+  /*font: 1.2em Regular-Regular-Rnt;*/
+  font-weight: bold; 
+}
+	th a{
+	 text-decoration: none;
+	 font-weight: 400;
+	 font-size: 1.2em;
+	}
+	th a:hover{
+	 text-decoration: underline;
+	}
+
+td, th { 
+  padding: 6px; 
+  border: 1px solid white; 
+  text-align: left; 
+}
+
+th.left{
+ text-align: left;
+}
+
+th.right{
+ text-align: right;
+ width:40%;
+}
+
+th.selected{
+	color: #9D479D;
+}
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 550px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid white; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid white; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 6px; 
+		white-space: nowrap;
+	}
+}
+@media 
+only screen and (max-width: 550px),
+(min-device-width: 403px) and (max-device-width: 1024px)  {
+	#right, #submit-print {
+		display:none;
+	}
+	#container{
+		margin-bottom: 1.7em;
+	}
+	#left{
+		width: 58%;
+	}
+}
+	

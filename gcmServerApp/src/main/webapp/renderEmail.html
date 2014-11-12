@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>Email over the Web sample</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../Resources/StyleSheet.css"/> -->
+</head>
+<body>
+
+<form name="emailForm" method="post" action="/cvchat/rest/email/getEmailForm?lang=en-us&appName=optimum.net&accessKey=a" onSubmit="JavaScript:return Submit_onClick (1);">
+    <table style="width:100%" cellspacing="0" cellpadding="2">
+        <tr>
+            <td>
+                <table >
+                    <tr >
+                        <td style="width:617px">Email over the Web sample</td>
+                        <td style="width:auto" ></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="samplesSampleParagraph">
+                Sample of Email submission over the web based on the PSDK Java API classes and JSP pages.
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <table style="width:617px" border="0" >
+                <tr>
+                   <td></td>
+                   <td></td>
+                   <td style="width:6px; vertical-align: middle;"></td>
+                </tr>
+
+				<tr>
+					<td   >Message:</td>
+					<td><input class="samplesFieldStyle" type="text" name="message" value=""></td>
+                    <td style="width:6px; vertical-align: middle;"><font class="samplesMandatoryMark">*</font></td>
+				</tr>
+
+				
+                <tr>
+                  <td   ></td>
+                  <td style="width:511px; vertical-align: middle; text-align:left" colspan="2">
+                      <table>
+                          <tr align="right">
+                              <input type="hidden" name="action" value="">
+                              <td>
+                              <input type="button" onclick="javascript:Submit_onClick(0);" value="Send">
+                              </td>
+                               <td>
+                              <input type="button" onclick="javascript:Reset_onClick();" value="Clear">
+                              </td>                              
+                          </tr>
+                      </table>
+                  </td>
+                  <td style="width:6px; vertical-align: middle;"></td>
+                </tr>
+
+				<tr>
+					<td colspan=3>
+                        <h5 class="samplesSampleNameTitle">
+                            <div id="ServerMessage" name="ServerMessage"></div>
+                        </h5>
+                    </td>
+				</tr>
+              </table>
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<script>
+
+function Submit_onClick(initParam)
+{
+    document.forms[0].action.value = "Submit";
+    /*
+    if (CheckNonASCIIChars(document.forms[0].emailAddress.value) == false || CheckNonASCIIChars(document.forms[0].replyFrom.value) == false)
+    {
+        alert("Fields <Email address> or <Reply from> contains character which is not valid for email address.");
+        if (initParam == 0)
+            return;
+        else
+            return false;
+    }
+    */
+
+    if (document.forms[0].emailAddress.value == "")
+    {
+        alert("Field <Email address> can't be empty.");
+        if (initParam == 0)
+            return;
+        else
+            return false;
+    }
+
+    document.forms[0].submit();
+}
+
+function Reset_onClick()
+{
+    document.forms[0].reset();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd 
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+     <!-- approach1 -->
+     <!-- 
+     <bean id="genesysLoadBalancerWrapper" class="org.springframework.web.servlet.mvc.ServletWrappingController">
+        <property name="servletClass" value="com.genesyslab.webapi.core.LoadBalancerServlet"/>
+        <property name="servletName" value="SvcDispatcherServlet"/>
+        
+        <property name="initParameters">
+        <props>
+          <prop key="host_config_serv">$ctx{com.cablevision.cvchat.genesys.host_config_serv}</prop>
+          <prop key="port_config_serv">$ctx{com.cablevision.cvchat.genesys.port_config_serv}</prop>
+          <prop key="app_config_serv">$ctx{com.cablevision.cvchat.genesys.app_config_serv}</prop>
+          <prop key="transport_address">$ctx{com.cablevision.cvchat.genesys.transport_address}</prop>
+          <prop key="transport_port">$ctx{com.cablevision.cvchat.genesys.transport_port}</prop>
+         </props>
+        </property>
+    </bean>
+     -->
+     <!-- approach 2 -->
+     <bean id="genesysLoadBalancerWrapper" class="com.gcm.server.config.ServletWrapper">
+        <property name="servletClass" value="com.genesyslab.webapi.core.LoadBalancerServlet"/>
+        <property name="servletName" value="SvcDispatcherServlet"/>
+        
+        <property name="initParameters">
+        <props>
+          <prop key="host_config_serv">$ctx{com.cablevision.cvchat.genesys.host_config_serv}</prop>
+          <prop key="port_config_serv">$ctx{com.cablevision.cvchat.genesys.port_config_serv}</prop>
+          <prop key="app_config_serv">$ctx{com.cablevision.cvchat.genesys.app_config_serv}</prop>
+          <prop key="transport_address">$ctx{com.cablevision.cvchat.genesys.transport_address}</prop>
+          <prop key="transport_port">$ctx{com.cablevision.cvchat.genesys.transport_port}</prop>
+         </props>
+        </property>
+    </bean>
+    
+</beans>

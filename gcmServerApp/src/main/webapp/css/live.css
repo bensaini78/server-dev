@@ -1,0 +1,741 @@
+/* line 3, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live {
+  margin: 20px 0px 60px 0px !important;
+}
+/* line 5, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live h1,
+section.live h2,
+section.live h3,
+section.live h4,
+section.live h5,
+section.live h6 {
+  margin: 0 0 15px  0;
+}
+/* line 8, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers {
+  margin: 0 auto;
+}
+/* line 10, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers.chatFormContainer1 {
+  width: 100%;
+}
+/* line 13, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart {
+  margin-top: 12px !important;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+/* line 17, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart ul {
+  list-style: none;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+/* line 21, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+/* line 24, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart ul li a {
+  color: #9d479d;
+  font-size: 40px;
+}
+/* line 28, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart ul li h2 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+/* line 33, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart ul li.active h2 {
+  opacity: 10;
+  filter: alpha(opacity=100);
+}
+/* line 37, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart ul li.active a {
+  font-family: 'Regular-Bold';
+}
+/* line 44, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .headerPart .right li {
+  padding-right: 0;
+}
+/* line 49, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .right {
+  text-align: right;
+}
+/* line 53, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .error-input {
+  background: #fefda0 !important;
+}
+/* line 56, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .error-label {
+  color: #c10000;
+}
+/* line 59, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .required-label {
+  color: #9d479d;
+}
+/* line 63, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .messagebox {
+  background-color: #f5f5f5;
+  border: 1px solid #d9d9d9;
+  margin: 0 0 20px 0;
+  padding: 35px 20px;
+  clear: both;
+  overflow: hidden;
+  float: left;
+  border-radius: 5px;
+  font-size: 17px;
+  line-height: 21px;
+  font-family: 'Regular-medium';
+}
+/* line 78, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .messagebox h4 {
+  margin-bottom: 10px;
+  margin-top: 3px;
+  font-size: 20px;
+  font-family: 'Regular-Bold';
+}
+/* line 84, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .messagebox a {
+  color: #00acd1;
+  text-decoration: underline;
+}
+/* line 87, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .messagebox a:hover {
+  text-decoration: none;
+}
+/* line 92, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .signinbox {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  padding: 35px 20px;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  font-size: 17px;
+  line-height: 22px;
+  font-family: 'Regular-medium';
+}
+/* line 102, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .signinbox a {
+  color: #00acd1;
+  text-decoration: underline;
+}
+/* line 105, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .signinbox a:hover {
+  text-decoration: none;
+}
+/* line 111, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .error-messagebox {
+  padding: 8px 6px 8px 40px !important;
+  background: #FFFFE0;
+  max-width: 500px;
+  border: 1px solid #d9d9d9;
+  color: #9d479d;
+  margin: 10px 0;
+}
+/* line 118, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .error-messagebox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 126, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .padding-0 {
+  padding: 0px;
+}
+/* line 129, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .element-select,
+section.live #formContainers .element-input {
+  clear: both;
+  margin-top: 26px;
+}
+/* line 133, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .element-select#custFirstName_div,
+section.live #formContainers .element-input#custFirstName_div {
+  clear: none;
+}
+/* line 136, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .element-select#custLastName_div,
+section.live #formContainers .element-input#custLastName_div {
+  clear: none;
+}
+/* line 139, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .element-select select,
+section.live #formContainers .element-input select {
+  width: 100%;
+}
+/* line 143, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .fromtext {
+  margin-bottom: 40px;
+  padding: 35px 0 35px 0;
+  border-bottom: 1px solid #d9d9d9;
+  font-family: 'Regular-Medium';
+}
+/* line 149, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 17px;
+  font-family: 'Regular-Bold';
+}
+/* line 155, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers input[type="text"],
+section.live #formContainers input[type="email"],
+section.live #formContainers input[type="password"] {
+  color: #404040;
+  font-size: 15px;
+  font-weight: bold;
+  height: 31px !important;
+  padding: 0 9px;
+  width: 100%;
+  line-height: 28px;
+}
+/* line 164, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers textarea {
+  width: 100%;
+  color: #404040;
+  font-weight: bold;
+  max-height: 80px;
+  resize: none;
+}
+/* line 171, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers input,
+section.live #formContainers textarea {
+  border: 1px solid #8c8c8c;
+}
+/* line 174, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers select {
+  border: 1px solid #8c8c8c;
+  padding-right: 0;
+}
+/* line 178, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .file_inputwrap {
+  position: relative;
+  z-index: 9 !important;
+}
+/* line 181, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .file_inputwrap label.title_attach_doc {
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+  margin-top: 15px;
+}
+/* line 187, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .file_inputwrap .file_input {
+  border: 0 none;
+  font-size: 12px;
+  display: block;
+  padding: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 3px 0 0 17px;
+  outline: none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: none;
+}
+/* line 202, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .file_inputwrap .no-file-selected {
+  position: absolute;
+  left: 120px;
+  top: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Regular';
+  line-height: 28px;
+}
+/* line 211, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .file_inputwrap .file_inputwrap .file_input {
+  filter: alpha(opacity=0);
+}
+/* line 214, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .file_inputwrap .hidden-input-value {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  display: none;
+}
+/* line 221, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .submit a {
+  color: #00acd1;
+}
+/* line 226, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers input[type="button"] {
+  width: inherit;
+}
+/* line 231, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #emailFormContainer h3,
+section.live #formContainers #chatFormContainer h3 {
+  font-size: 30px;
+  margin-bottom: 33px;
+}
+/* line 236, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #emailFormContainer .span8 h4,
+section.live #formContainers #chatFormContainer .span8 h4 {
+  margin-bottom: 33px;
+  font-size: 20px;
+  font-family: 'Regular-Bold';
+}
+/* line 245, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #emailFormContainer .span8 h4 {
+  margin-bottom: 7px;
+}
+/* line 250, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers input.btn-save {
+  border: 0;
+  height: 40px;
+  width: 140px;
+  font-size: 17px;
+  font-family: 'Regular-Bold';
+  -webkit-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+/* line 259, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #indicates_required {
+  text-align: right;
+  width: 100%;
+  float: left;
+  margin-bottom: 37px;
+  margin-top: 63px;
+  font-family: 'Regular-medium';
+}
+/* line 266, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #indicates_required font {
+  color: #9d479d;
+}
+/* line 271, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #emailFormContainer .submit {
+  padding: 40px 0 40px 0;
+  margin: 33px 15px 0 15px;
+  border-top: 1px solid #d9d9d9;
+}
+/* line 275, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers #emailFormContainer .submit a#submit-print {
+  color: #404040;
+}
+/* line 280, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #formContainers .filebtn {
+  background: #00acd1;
+  border: 0 none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  height: 30px;
+  left: 0;
+  text-align: center;
+  top: 0;
+  width: 100px;
+  z-index: 85;
+  position: absolute;
+  cursor: pointer;
+  line-height: 30px;
+}
+@-moz-document url-prefix() {
+  /* line 300, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .file_input {
+    padding: 2px 0 0 28px !important;
+    font-family: 'Regular-Bold';
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  /* line 307, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  /* line 310, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers input[type="text"],
+  section.live #formContainers input[type="email"],
+  section.live #formContainers input[type="password"],
+  section.live #formContainers textarea {
+    width: 73%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* line 317, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers {
+    margin: 0 auto;
+    max-width: 290px;
+  }
+  /* line 320, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers input[type="text"],
+  section.live #formContainers input[type="email"],
+  section.live #formContainers input[type="password"],
+  section.live #formContainers textarea {
+    width: 100%;
+  }
+  /* line 323, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers h2 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* line 331, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers {
+    margin: 0 auto;
+  }
+  /* line 333, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  section.live #formContainers input[type="text"],
+  section.live #formContainers input[type="email"],
+  section.live #formContainers input[type="password"],
+  section.live #formContainers textarea {
+    width: 100%;
+  }
+}
+/* line 342, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #chatForm .dropdown {
+  width: 50% !important;
+  clear: both !important;
+}
+/* line 346, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+section.live #chatForm .dropdown__selected {
+  width: 100% !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* line 359, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .yui-module {
+    width: 100%;
+  }
+  /* line 363, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .headerPart ul {
+    margin: 0 !important;
+  }
+  /* line 365, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .headerPart ul li {
+    width: 100%;
+    float: left;
+  }
+  /* line 370, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .headerPart a {
+    font-size: 1rem;
+  }
+  /* line 373, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .headerPart .span9 {
+    width: 85%;
+    float: left;
+  }
+  /* line 377, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+  .headerPart .span3 {
+    width: 100%;
+    float: left;
+  }
+}
+/* line 384, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module {
+  position: relative;
+  left: 0;
+  top: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  z-index: 1;
+  _zoom: normal;
+  visibility: inherit;
+  width: 600px;
+  background: #f2f2f2;
+}
+/* line 396, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .hd {
+  padding: 0 10px;
+  font-size: 93%;
+  line-height: 2;
+  font-weight: normal;
+  color: #000;
+  background: url(../../assets/images/genesys/sprite.png) repeat-x 0 0;
+}
+/* line 403, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .hd span {
+  padding: 0 10px;
+  font-size: 93%;
+  line-height: 2;
+  font-weight: normal;
+  color: #000;
+}
+/* line 411, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .warnicon {
+  background: url(../../assets/images/genesys/sprite.png) no-repeat 0 -81px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  float: left;
+}
+/* line 418, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .container-close {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  width: 25px;
+  height: 15px;
+  background: url(../../assets/images/genesys/sprite.png) no-repeat 0 -96px;
+  cursor: pointer;
+}
+/* line 427, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_MessageBox {
+  background-color: #FFFFE0;
+  border: 1px solid #808080;
+  color: #990000;
+  margin: 10px 0;
+  padding: 6px;
+}
+/* line 434, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_InfoMessage {
+  background: #ffffe0 url(../../assets/images/genesys/info.png) no-repeat 0 0;
+  padding: 6px 6px 4px 40px !important;
+}
+/* line 439, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_SmartAssistantDialog .rn_Heading {
+  font-size: 1.333em;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+/* line 444, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_SmartAssistantDialog .rn_Prompt {
+  color: #404040;
+  font-size: 0.9em;
+  font-weight: normal;
+  line-height: 1.3em;
+}
+/* line 451, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_List {
+  background: #F0F0F0 none repeat scroll 0 0;
+  border: 1px solid #B0B3B8;
+  margin-top: 6px;
+  padding: 4px;
+}
+/* line 456, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_List li {
+  list-style: disc outside none;
+  margin: 4px 4px 4px 16px;
+}
+/* line 461, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module a:link,
+.yui-module a:visited,
+.yui-module a:hover,
+.yui-module a:active {
+  color: #555555;
+}
+/* line 464, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module a:hover,
+.yui-module a:active,
+.yui-module a:focus {
+  text-decoration: underline;
+}
+/* line 467, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .ft {
+  border-top: none;
+  padding: 10px 0 0 0;
+  font-size: 100%;
+}
+/* line 471, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .ft button {
+  opacity: 0.6;
+  filter: alpha(opacity=60) !important;
+  margin-left: 1px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  font-weight: normal;
+}
+/* line 482, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .ft .button-group {
+  display: block;
+  text-align: right;
+}
+/* line 486, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_ScreenReaderOnly {
+  position: absolute;
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+  top: auto;
+  width: 1px;
+}
+/* line 494, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .bd {
+  padding: 10px;
+}
+/* line 497, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module .rn_Dialog button {
+  background-color: #888888;
+}
+/* line 500, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.yui-module button {
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  margin-bottom: 0;
+  line-height: 1.4;
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.33333em;
+  border: 0;
+  background-color: #4d4d4d;
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Regular-Bold';
+}
+/* line 14, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\buttons\buttons.less */
+.yui-module button:hover {
+  text-decoration: none;
+  background-color: #333333;
+}
+/* line 18, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\buttons\buttons.less */
+.yui-module button:active,
+.yui-module button.is-active {
+  outline: 0;
+  background-color: #8d8d8d;
+}
+/* line 92, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\icons\font-awesome.less */
+.yui-module button [class^="icon-"],
+.yui-module button [class*=" icon-"] {
+  display: inline;
+  /* keeps button heights with and without icons the same */
+
+}
+/* line 96, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\icons\font-awesome.less */
+.yui-module button [class^="icon-"].icon-large,
+.yui-module button [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+/* line 97, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\icons\font-awesome.less */
+.yui-module button [class^="icon-"].icon-spin,
+.yui-module button [class*=" icon-"].icon-spin {
+  display: inline-block;
+}
+/* line 193, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\icons\font-awesome.less */
+.yui-module button [class^="icon-"].pull-left.icon-2x,
+.yui-module button [class*=" icon-"].pull-left.icon-2x,
+.yui-module button [class^="icon-"].pull-right.icon-2x,
+.yui-module button [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em;
+}
+/* line 195, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\core\base\icons\font-awesome.less */
+.yui-module button [class^="icon-"].icon-spin.icon-large,
+.yui-module button [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em;
+}
+/* line 506, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.black-on-white .jquery-msg-content {
+  padding: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+/* line 511, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+#jquery-msg-bg {
+  opacity: 0.3 !important;
+  filter: alpha(opacity=30) !important;
+}
+/* line 515, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+#product {
+  position: relative;
+  z-index: 11;
+}
+/* line 519, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+#sub-product {
+  position: relative;
+  z-index: 10;
+}
+/* line 523, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  z-index: 88;
+  color: black;
+  width: 100%;
+  background: #f2f2f2;
+  color: #404040;
+  font-size: 15px;
+  height: 32px;
+}
+/* line 534, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .s-hidden {
+  visibility: hidden;
+  padding: 0;
+  padding-right: 10px;
+  width: 90%;
+}
+/* line 540, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .styledSelect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f2f2f2 !important;
+  padding: 0 1rem;
+  font-weight: bold;
+  line-height: 25px;
+  border: 1px solid #8c8c8c;
+  border-radius: 6px;
+  height: 32px;
+  z-index: 888888;
+  font-family: 'Regular-Bold';
+}
+/* line 555, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .styledSelect:after {
+  font-family: 'FontAwesome';
+  content: "\f0dd";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #00acd1;
+  width: 25px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  padding: 0;
+  line-height: 23px;
+}
+/* line 570, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .styledSelect.active {
+  background-color: #e5e5e5;
+  border: 1px solid #8c8c8c;
+  border-radius: 6px 6px 0 0;
+}
+/* line 574, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .styledSelect.active:after {
+  content: "\f00d";
+  border-radius: 0 6px 0 0;
+  line-height: 29px;
+}
+/* line 581, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 88;
+  margin: 0 0;
+  padding: 0 0;
+  list-style: none;
+  background-color: white;
+  border: 1px solid #8c8c8c;
+  border-radius: 0 0 6px 6px;
+  z-index: 99999;
+  padding: 10px 0 0 0;
+}
+/* line 596, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .options li {
+  padding: .4rem 1rem;
+  cursor: pointer;
+}
+/* line 599, E:\optimum\net\genesys\onet-webapp-genesys-local\src\main\www\src\pages\support\live\live.less */
+.custom-select .options li:hover {
+  background-color: #f2f2f2;
+}

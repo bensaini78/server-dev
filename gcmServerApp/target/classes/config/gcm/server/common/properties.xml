@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<!-- replace properties with classpath:test/config/common.properties -->
+	<bean id="locationPropertyPlaceholder"
+		class="com.gcm.server.config.CustomPropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:config/gcm/server/common/application.properties</value>				
+			</list>
+		</property>
+		<property name="ignoreResourceNotFound" value="false" />
+		<property name="placeholderPrefix" value="$ctx{" />
+		<property name="systemPropertyPrefixName" value="gcm_server_app_env_prefix"/>
+	    <property name="delimiter" value="."/>
+	</bean>
+	
+	<!-- ========================================================================== 
+		Application Properties 
+	========================================================================== -->
+
+	<bean id="applicationPropertiesBean" class="com.gcm.server.common.ApplicationPropertiesBean">
+	<property name="applicationProperties">
+		<props>
+			<prop key="com.gcm.server.env.prefix">#{systemProperties['gcm_server_app_env_prefix'] ?: 'not found'}</prop>
+			<prop key="com.gcm.server.api.key">$ctx{com.gcm.server.api.key}</prop>			
+		</props>
+	</property>
+</bean>
+</beans>
